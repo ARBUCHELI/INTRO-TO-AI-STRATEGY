@@ -1,0 +1,34 @@
+# GENERATIVE AI PITFALLS
+------------------------
+
+* Introduction
+--------------
+Our online lives are filled with examples of amazing things Generative AI can do. It’s a powerful tool, and if you’ve used ChatGPT, Dall-E, or another Gen AI tool yourself you’ve probably 
+seen this firsthand already!
+
+We can probably agree that not every single problem can be solved using AI. However, Gen AI also has some shortcomings even when tackling tasks it’s specifically designed for and 
+generally good at, like language generation. Luckily, many of these challenges are predictable, which means we can avoid or fix them by using Gen AI in the right way, to solve the right 
+problems.
+
+Solutions to these Gen AI challenges range from small tweaks like improving our prompts and adjusting model parameters, to larger mindset shifts like factoring in longterm internal goals 
+and remembering to take a breath in a crowded, exciting field.
+
+This lesson will walk through six pitfalls to look out for when using generative AI to solve a problem, and show you how to avoid them or be aware of risks:
+
+	. Generalization & Compression
+
+	. Verifiability
+
+	. Scope
+
+	. Vulnerability
+
+	. Future-Proofing
+
+	. Quality Control
+
+Avoiding these issues or having a plan in place to mitigate the risks will help to ensure that generative AI is a useful, efficient, and sustainable tool for you. We’ll focus mostly on 
+Large Language Models (LLMs) and Generative Pre-Trained Transformers (GPTs) here, but we’ll talk a little about generative image technologies too.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
