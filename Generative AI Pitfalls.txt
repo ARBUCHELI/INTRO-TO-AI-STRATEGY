@@ -32,3 +32,81 @@ Large Language Models (LLMs) and Generative Pre-Trained Transformers (GPTs) here
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Generalization & Compression: the Catch-22
+--------------------------------------------
+Before we jump into some more detailed pitfalls and solutions, it’s helpful to start by understanding the core technology that makes generative AI generative. The key is in compression 
+and generalization.
+
+* Compression & Generalization
+------------------------------
+Compression and generalization help determine how the next word is chosen in a language model. (They also sometimes determine how the next pixel is chosen in an image generator, although 
+the most cutting-edge image generators use a slightly different process called stable diffusion.) We’ll walk through the process for a language model.
+
+First, a model is fed lots of data and begins to recognize patterns of which words are often strung together, and with what frequencies. Compression allows the model to not select a word 
+that is probable. For example, question is the most likely ending to this phrase because it’s the actual ending to the famous line from William Shakespeare’s Hamlet:
+
+	"To be or not to be: that is the `question`."
+
+Compression allows the model to give this combination a probability of zero, even though it exists and may be a likely answer.
+
+Generalization allows the model to select a different word combination that it has never specifically encountered before in training data:
+--------------
+
+	“To be or not to be: that is the `consideration`.”
+	“To be or not to be: that is the `uncertainty`.”
+	“To be or not to be: that is the `challenge`.”
+	“To be or not to be: that is the `crux of it`.”
+
+This is the key aspect of the technology that makes it “generative”: in other words, a combination of words does not need to have existed before to be a possible output of the model. LLMs 
+can recognize and recreate the predictable patterns of syntax to actually generate new sentences that make grammatical sense to humans – not just spit out repurposed fragments of their 
+training data. This is an amazing feature of LLMs!
+
+* Hallucinations
+----------------
+The flip side of this technology is that “likely patterns” are not necessarily true facts – untrue results are often called hallucinations. The model has no understanding of whether its 
+sentences make logical sense or represent truthful statements.
+
+An LLM could tell us “The lion chases the llama” because it recognizes a pattern of animal nouns and generalization allows it to swap one animal for another. The sentence makes perfect 
+grammatical sense, and it’s even easy to imagine that scene. But lions and llamas exist on different continents, so the chance of this sentence being true is pretty much zero. That 
+example is easy to catch, but many are not!
+
+* Model Temperature
+-------------------
+When we talk about increasing the temperature of the model, that means changing probability distributions so that the model will return less and less likely answers. These answers will 
+reflect less of what’s already determined by the data, and instead, generate more novel content that could be produced based on the data. A lower temperature will output more 
+deterministic answers that are more likely to be true. A higher temperature will create more fiction with more unlikely combinations of words.
+
+Model temperature is often referred to as the model’s “creativity”, but it’s good to remember that that’s really a human-intuitive way of describing changes to the math that powers these 
+models.
+
+* RLHF
+------
+Finally, reproducing likely outcomes includes the good and the bad. In order to keep models from reproducing and amplifying biased information, lots of human time and effort has to go 
+into curating model training data to keep the input data toxicity-free. Additionally, reinforcement learning based on human feedback (RLHF) “corrects” model outputs to minimize bias and 
+inaccuracies in future runs, and also requires lots of human effort. Both of these processes have to occur before a model is released for public use.
+
+* Instructions
+--------------
+NOTE: The “lion chases llama” example is pulled from Dr. Kyunghyun Cho’s presentation A slight-less-magical perspective into autoregressive language modeling.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
