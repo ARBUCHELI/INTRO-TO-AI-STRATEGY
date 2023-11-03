@@ -125,6 +125,41 @@ Finally, for all of the reasons we’ve covered, make sure to fact-check any out
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Scope
+-------
+GPT stands for Generative Pre-Trained Transformer. When we’re considering the scope of a problem, and if Generative AI can be a solution, we’re probably thinking most about the 
+“pre-trained” aspect of a GPT.
+
+GPTs are trained on lots of data. The volume of training data is one of the breakthroughs of the technology in the last few years – it could not have produced high-quality text results 
+without the enormous trove of internet data that exists today. However, even with unfathomably large amounts of training data, GPTs don’t know about everything.
+
+One GPT scope issue is that the training data may be outdated, or in other words, limited in temporal scope. As of mid-2023, for example, ChatGPT only knew about events from 2021 or 
+earlier. Current events prompts may be impossible for the GPT to answer (although it may not recognize this – one user reported asking for a Superbowl recap and getting a detailed answer 
+about a Superbowl that hadn’t happened yet).
+
+Prompts about niche or specialized fields can also pose a challenge. When there are fewer sources to draw from and “remix”, GPTs are more likely to return generated text that is very 
+similar to the existing sources. That’s plagiarism, which can lead to disciplinary or legal action and is definitely best avoided! A better solution might be to ask the GPT to return a 
+summary of a source and cite the source directly.
+
+On the other hand, very broad or general prompts (like “write me a business plan”) yield weak results as well, because the wide scope of training data may make it harder for the GPT to 
+distinguish the relevant or useful patterns in the data. In addition to writing a better prompt, a solution for this issue can be to fine-tune the GPT using training data that’s specific 
+to your situation.
+
+Finally, consider the type of problem you’re trying to solve using a GPT. It is certainly possible to use ChatGPT to write wedding vows, or a eulogy, or a speech to address a national 
+tragedy. It might even write them “better” than you could. But sometimes, bad writing done by a living, feeling human is better than good writing done by a robot using probability 
+distributions.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
 
