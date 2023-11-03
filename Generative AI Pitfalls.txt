@@ -151,6 +151,60 @@ distributions.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Vulnerability
+---------------
+Another pitfall to look out for when using GPTs is security vulnerability. This can take a couple different forms, depending on how you’re implementing a GPT. We’ll talk about data 
+security and prompt injections here.
+
+* Data Security
+---------------
+No matter what, be mindful of what data you put into a GPT. Companies can log every single piece of data their users input. The data is saved on their servers, used for training purposes, 
+and is often shared with other companies. Exact privacy and data use policies are still in development and often changing, so it’s important to do your own research and understand how 
+your data is stored and where it may be shared to.
+
+Once data is in a GPT, it’s out of your control, so inputting personally identifiable information (PII) into a GPT can make you vulnerable to a serious data breach. OpenAI, for 
+had to take ChatGPT offline for about half a day in 2023 to fix a bug that made some users’ credit card information and partial chat history visible to other users.
+
+But what if I want to use my own data to fine-tune a model and improve its performance for a specific task? That’s a great question, and a good use of a GPT! Data can be generalized, 
+anonymized, or otherwise transformed to remove sensitive information before sharing it – if your company has policies for sharing data with third-party or external organizations, a GPT 
+should fall into that category. Local fine-tuning is also a more secure way to use your own data in a GPT.
+
+Finally, if you’re thinking, what’s the point of keeping data out of a GPT? Don’t they have access to everything already? In fact, they don’t! In general, GPTs are (supposedly) trained on 
+publicly available data – like public posts on social media, webpage content, out-of-copyright literature, or news articles from free sources. Anything that requires permission or 
+access – like someone accepting a follow request or paying for a subscription – isn’t supposed to be part of the training data. That being said, as of mid-2023 there are multiple 
+copyright lawsuits in progress by authors who say ChatGPT has been trained on their copyrighted work without their consent. How these lawsuits play out will hopefully give us more insight 
+into ChatGPT’s training process.
+
+* Prompt Injection
+------------------
+If you use an API to implement a GPT in your personal project (like creating a helper chatbot for your website), there are additional security concerns. One major concern is prompt 
+injection, which is when a user hijacks the “setup” of a GPT using specific prompts. This can lead to embarrassing situations for a company, or at worst, data breaches and downed sites. 
+We won’t go into technical detail here, but prompt injections can be avoided by following cybersecurity best practices when setting up your own GPT interface.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
