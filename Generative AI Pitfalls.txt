@@ -91,6 +91,57 @@ NOTE: The “lion chases llama” example is pulled from Dr. Kyunghyun Cho’s p
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Verifiability
+---------------
+So, compression and generalization is the real catch-22 of generative AI. In order to generate content that doesn’t already exist, we sign up for some amount of risk that what the model 
+produces may be factually inaccurate. There is no escaping the fact that GPTs produce unverified content.
+
+GPTs have generated fake harassment claims and named real people as the perpetrators, made up fake court cases when asked to give a list of precedents, and supported their bogus claims 
+with citations of fake newspaper articles from national papers. Verifying a GPT’s output is a crucial step both in preventing misinformation, and in preventing embarrassing situations and 
+the need for edits, redactions, or public apologies.
+
+One thing that makes it hard to catch falsehoods is that GPTs don’t communicate information in the same way humans do. They don’t sound uncertain, even when they have no relevant training 
+data to work from. GPTs provide information with the same informative, confident, friendly tone no matter what, and they will only say “I don’t know the answer to this” or “I can’t answer 
+this” when they’ve been specifically pre-trained to do so. In other words, LLMs don’t know what they don’t know.
+
+This confident tone, along with the way GPTs are marketed (“impressive!”, “powerful!”, “can ace an MIT course in one go!”), contribute to the phenomenon of authority bias. Authority bias 
+refers to our greater tendency to believe statements that come from individuals or organizations in power, or those we think of as “experts” in a specific domain. We are naturally less 
+likely to disbelieve authority figures and experts – which means it’s doubly important to fact-check GPTs!
+
+So what can we do?
+
+First, always think of yourself as an editor when you use a GPT. GPTs can save us a lot of drafting work, but they do not produce finished content. And while GPT outputs rarely need heavy 
+grammatical editing, they definitely need fact-checking.
+
+Second, use the “temperature” parameter to make outputs more deterministic and less generative. “More deterministic” means the GPT will output information that more closely replicates 
+what it has “seen” before, rather than generating information that’s more inventive. Lowering the temperature of the model means there will be less variation in results, but also less 
+likelihood of unverified material. (For more details, you can refer back to the previous exercise.)
+
+Third, consider what task you’re using a GPT for. For a more creative task, like generating a list of potential content for a newsletter, the more relevant editor’s question might be “is 
+this a good idea?”, rather than “is this factually true?” But if you’re using a GPT in a way where the facts matter, like asking it to write a short bio about a famous person, or return a 
+list of the top five competitors in a certain industry, then it’s critical to have eagle eyes and be ready to fact-check to ensure a truthful output.
+
+Finally, for all of the reasons we’ve covered, make sure to fact-check any output that will be widely shared.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
