@@ -235,6 +235,34 @@ Image credit: XKCD
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Recap
+-------
+1. Generalization and compression: Generalization is both a core feature and a core challenge of LLMs because it allows them to produce generated (i.e. original) but also unverified 
+----------------------------------
+sentences.
+
+2. Verifiability: Outputs from LLMs can always contain factually inaccurate information, and LLMs do not know or understand facts. They perform language tasks with confidence and it’s 
+-----------------
+important for humans to be skeptical editors with an awareness of authority bias.
+
+3. Scope: GPTs are pre-trained on data that cannot be changed or amended, but they can be fine-tuned on local data to better address specific questions. As with all data-related 
+---------
+questions, the quality of the data greatly impacts the quality of the outcomes.
+
+4. Vulnerability: Users should not upload sensitive data into GPTs because they are not secure or confidential. Without proper security measures in place, GPT APIs are vulnerable to 
+-----------------
+attacks like prompt injections.
+
+5. Future-Proofing: Because of the new and changing nature of LLM and GPT technologies, it’s important to consider from an individual standpoint the costs and benefits of integrating them 
+-------------------
+into workflows.
+
+6. Quality Control: It’s critical to remember that new advances in AI are not only scientific discoveries, they are products with revenue potential. Being able to conduct your own 
+-------------------
+research and separate marketing claims from actual capabilities and applications is an important skill for successfully implementing AI technologies.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
