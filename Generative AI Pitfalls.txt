@@ -214,6 +214,45 @@ use of new AI technologies.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Quality Control
+-----------------
+Finally, related to future-proofing, it’s important to remember that GPTs are not only scientific and technological discoveries, they are products with revenue potential.
+
+Publicity – both techno-optimistic and fear-mongering – is beneficial for AI companies. It adds to the perception that this new technology is a powerful mix of magic and science. In 
+reality, one of the biggest warnings for consumers rarely makes it into the news: AI is a heavily-hyped, heavily-marketed product.
+
+A good solution? Keep learning about large language models, and learn about basic machine learning as well. With all the hype about generative AI, a lot of machine learning advances from 
+the last several years are now marketed as AI. The definitions of a lot of these technologies overlap, but it’s a shame to pay for “fancy new AI” when the driver of a product is actually 
+ML that’s been around for 10-15 years. “Move fast and break things” leaves some things… well, broken. Anyone remember the metaverse?
+
+Being able to conduct your own research and separate marketing claims from actual capabilities and applications is an important skill for successfully implementing AI technologies.
+
+Additionally, as we discussed in the last exercise, be selective with AI solutions, and try to take a problem-solving approach that considers the past, present, and future of the problem. 
+Remember that AI – and indeed no technology – is a silver bullet for a complicated problem. Consider the AI pitfalls we’ve covered in this lesson as part of your process for deciding if, 
+when, and how to implement an AI solution.
+
+Image credit: XKCD
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
