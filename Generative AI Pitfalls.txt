@@ -183,6 +183,56 @@ We won’t go into technical detail here, but prompt injections can be avoided b
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Future-Proofing
+-----------------
+The next pitfall is about hype. While the foundations of large language models have been around for decades, GPT technologies in 2022 and beyond really are a fantastic new technology.
+
+As with any new technology that professes to solve a problem (or, in the case of AI, pretty much any problem), it’s important to think through all the steps of the problem-solving 
+process. Consider not only the issue at hand, but issues that might arise in implementing or maintaining an AI solution.
+
+For GPTs specifically, this may mean thinking through legal concerns like copyright infringement, plagiarism, intellectual property use, libel, or data security. It may mean thinking 
+about the cost of data storage or GPU requirements. It may mean thinking in a specific problem space, like user experience or brand voice, for example.
+
+It may also mean thinking in more general terms about the nature of the problem you’re trying to solve:
+
+	. How much time or effort will be saved by automating a process with AI?
+
+	. How much time and effort will it take to learn the new approach? Is there a backup if the new process fails?
+
+	. If something goes wrong, how great will the consequences be and how quickly will you be able to resolve issues?
+
+	. Is there an opportunity cost to automation, like the nuance of a response or the knowledge gained by that interaction?
+
+A good place to start is to make sure that the problem is really a problem. In other words, avoid using AI for AI’s sake. In some cases – especially when you already have a working 
+solution or do not have a clear and defined reason for implementing AI – it’s best to stick with what works.
+
+Using a generative AI-based recommender system instead of a simpler form of machine learning to solve a classification problem might be akin to busting out a heavy-duty vacuum cleaner 
+when a simple dustpan and broom would work just as effectively, with less effort.
+
+In other cases, of course, new tools can provide novel and helpful solutions. The key is to consider all the steps of the process, as best you can, to avoid implementing an unsustainable 
+use of new AI technologies.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
